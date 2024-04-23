@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Portifólio</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+       Portifólio
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Sobre mim e Experiencias</a>
+            <a href="#tecnologias">Tecnologias que domino</a>
+            <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- SOBRE MIM -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Rafael Cassio</h2>
+        <span class="home-position">Estudande de ciências da computação (UVV)</span>
+        
+          Sou uma pessoa apaixonada por aprendizado contínuo e em constante busca pela excelência em tudo o que faço. Movido por uma energia incansável, busco desafios que me permitam crescer e me desenvolver tanto pessoal quanto profissionalmente. Com uma abordagem perfeccionista em todas as minhas atividades, estou sempre determinado a superar expectativas e alcançar resultados excepcionais. Minha paixão pelo conhecimento e minha energia positiva me impulsionam a enfrentar novos desafios com entusiasmo e determinação. Porem, neste momento, não possuo nenhuma experiencia nesta área. Minha unica experiencia no mercado de trabalho foi na oficina mecânica, onde trabalhei como estagiario e adquiri muito conhecimmento vendo, ajudando e até mesmo concertando alguns carros. E aprendi bastante sobre trabalho em equipe e proatividade.
+
+        </span>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="img/perfil.jpeg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias">
+      <h2>Tecnologias que domino</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/html.jfif" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>HTML</h2>
+              <p>Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/css.jfif" alt="Foto de uma loja online">
+            </div>
+            <div class="project-info">
+              <h2>CSS
+              </h2>
+              <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense na decoração da sua página.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/sql.jfif" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>SQL</h2>
+              <p>A Linguagem de consulta estruturada (SQL) é uma linguagem de programação para armazenar e processar informações em um banco de dados relacional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="project-img">
+            <img src="img/mecanico.jfif" alt="Foto de um sistema">
+          </div>
+        </div>
+      </div>
+       
+    
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+<!-- CONTATO -->
+
+  <section id="contact">
+    <h3>Contato</h3>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    copyright © 2024 Rafael Cássio. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
